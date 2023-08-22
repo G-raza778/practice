@@ -24,7 +24,7 @@ public static void initialisation() {
 public void failed() {
 	TakesScreenshot tss=(TakesScreenshot)driver;
 	File src=tss.getScreenshotAs(OutputType.FILE);
-	File dest=new File("E://New Selenium//forPractice1//ScreenShots//failed.png");
+	File dest=new File("E://New Selenium//forPractice1//ScreenShots//failed1.png");
 	try {
 		FileUtils.copyFile(src, dest);
 	} catch (IOException e) {

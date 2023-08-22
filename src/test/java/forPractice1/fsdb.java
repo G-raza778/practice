@@ -8,11 +8,12 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class fsdb {
 public static void main(String[] args) {
-	WebDriverManager.chromedriver().setup();
-	WebDriver driver=new ChromeDriver();
-	driver.manage().window().maximize();
-	driver.get("http://www.google.com");
-	JavascriptExecutor jss=(JavascriptExecutor)driver;
-	jss.executeScript("document.getElementById('APjFqb').value='vaakavalya'");
+//	WebDriverManager.chromedriver().setup();
+//	WebDriver driver=new ChromeDriver();
+//	driver.manage().window().maximize();
+//	driver.get("http://www.google.com");
+//	JavascriptExecutor jss=(JavascriptExecutor)driver;
+//	jss.executeScript("document.getElementById('APjFqb').value='vaakavalya'");
+	System.out.println(0.1+0.4);
 }
 }

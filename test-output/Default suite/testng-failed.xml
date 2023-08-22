@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="forPractice1.you">
+      <class name="ScreenShot.meesho">
         <methods>
-          <include name="main"/>
+          <include name="executions"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- forPractice1.you -->
+      </class> <!-- ScreenShot.meesho -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
